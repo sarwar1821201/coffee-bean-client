@@ -34,6 +34,7 @@ const AddCoffee = () => {
                     icon: 'success',
                     confirmButtonText: 'Cool'
                   })
+                  event.target.reset();
             }
         } )
 
